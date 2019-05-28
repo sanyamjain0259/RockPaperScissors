@@ -1,0 +1,82 @@
+*{
+  border: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  background-color: rgb(0,0,0);
+  height: 100%;
+}
+.navbar{
+  background-color: rgb(255,255,255);
+  margin:0;
+  text-align:center;
+  font-size: 50px;
+}
+.main{
+  color: rgb(255,255,255);
+}
+.main{
+  align-items: center;
+}
+.gameText{
+  border: 2px solid red;
+  padding: 5px;
+  font-size: 35px;
+  text-align: center;
+  width: 20%;
+  margin:20px auto;
+  position: relative;
+}
+.user{
+  background:rgb(255,0,0);
+  font-size: 14px;
+  padding: 2px 10px;
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+.comp{
+  background:rgb(255,0,0);
+  font-size: 14px;
+  padding: 2px 10px;
+  position: absolute;
+  top: 30px;
+  right: -25px;
+}
+.result{
+  font-size:33px;
+  text-align: center;
+}
+.row{
+  margin-top:50px;
+  text-align: center;
+}
+.choice{
+  display: inline-block;
+  border:2px solid white;
+  margin:20px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.choice:hover{
+  cursor: pointer;
+}
+.foot{
+  text-align: center;
+  font-size: 20px;
+}
+.green{
+  border: 2px solid green;
+  box-shadow: 2px 2px 10px green;
+}
+.red{
+  border: 2px solid red;
+  box-shadow: 2px 2px 10px red;
+}
+.gray{
+  border: 2px solid gray;
+  box-shadow: 2px 2px 10px gray;
+}
